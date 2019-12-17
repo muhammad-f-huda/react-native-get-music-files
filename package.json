@@ -1,0 +1,53 @@
+{
+  "_args": [
+    [
+      "git+https://github.com/muhammad-f-huda/react-native-get-music-files.git",
+      "/Users/sjh0628/Project/rn/musicapp"
+    ]
+  ],
+  "_from": "git+https://github.com/muhammad-f-huda/react-native-get-music-files.git",
+  "_id": "react-native-get-music-files@git+https://github.com/muhammad-f-huda/react-native-get-music-files.git#5d96989371b549d012eb3eacfa1f65e9881440c4",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/react-native-get-music-files",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "git+https://github.com/muhammad-f-huda/react-native-get-music-files.git",
+    "rawSpec": "git+https://github.com/muhammad-f-huda/react-native-get-music-files.git",
+    "saveSpec": "git+https://github.com/muhammad-f-huda/react-native-get-music-files.git",
+    "fetchSpec": "https://github.com/muhammad-f-huda/react-native-get-music-files.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/muhammad-f-huda/react-native-get-music-files.git#5d96989371b549d012eb3eacfa1f65e9881440c4",
+  "_spec": "git+https://github.com/muhammad-f-huda/react-native-get-music-files.git",
+  "_where": "/Users/sjh0628/Project/rn/musicapp",
+  "author": {
+    "name": "Dante Cervantes"
+  },
+  "description": "React Native package to get music files from local and sd for iOS and Android ",
+  "keywords": [
+    "react-native",
+    "music",
+    "files",
+    "metadata",
+    "ios",
+    "android",
+    "react",
+    "native"
+  ],
+  "license": "IST",
+  "main": "index.js",
+  "name": "react-native-get-music-files",
+  "peerDependencies": {
+    "react-native": "^0.41.2",
+    "react-native-windows": "0.41.0-rc.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "2.1.0"
+}

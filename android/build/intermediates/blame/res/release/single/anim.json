@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "/Users/sjh0628/Project/rn/musicapp/node_modules/react-native-get-music-files/android/build/intermediates/res/merged/release/anim/abc_tooltip_exit.xml",
+        "source": "/Users/sjh0628/.gradle/caches/transforms-2/files-2.1/f9540e62cb72798289325c79c997581b/res/anim/abc_tooltip_exit.xml"
+    },
+    {
+        "merged": "/Users/sjh0628/Project/rn/musicapp/node_modules/react-native-get-music-files/android/build/intermediates/res/merged/release/anim/abc_popup_exit.xml",
+        "source": "/Users/sjh0628/.gradle/caches/transforms-2/files-2.1/f9540e62cb72798289325c79c997581b/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/sjh0628/Project/rn/musicapp/node_modules/react-native-get-music-files/android/build/intermediates/res/merged/release/anim/abc_fade_in.xml",
+        "source": "/Users/sjh0628/.gradle/caches/transforms-2/files-2.1/f9540e62cb72798289325c79c997581b/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/sjh0628/Project/rn/musicapp/node_modules/react-native-get-music-files/android/build/intermediates/res/merged/release/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/sjh0628/.gradle/caches/transforms-2/files-2.1/f9540e62cb72798289325c79c997581b/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/sjh0628/Project/rn/musicapp/node_modules/react-native-get-music-files/android/build/intermediates/res/merged/release/anim/catalyst_fade_in.xml",
+        "source": "/Users/sjh0628/.gradle/caches/transforms-2/files-2.1/c54066406df10b58fc726b8a1d24eb24/res/anim/catalyst_fade_in.xml"
+    },
+    {
+        "merged": "/Users/sjh0628/Project/rn/musicapp/node_modules/react-native-get-music-files/android/build/intermediates/res/merged/release/anim/catalyst_slide_up.xml",
+        "source": "/Users/sjh0628/.gradle/caches/transforms-2/files-2.1/c54066406df10b58fc726b8a1d24eb24/res/anim/catalyst_slide_up.xml"
+    },
+    {
+        "merged": "/Users/sjh0628/Project/rn/musicapp/node_modules/react-native-get-music-files/android/build/intermediates/res/merged/release/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/sjh0628/.gradle/caches/transforms-2/files-2.1/f9540e62cb72798289325c79c997581b/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/sjh0628/Project/rn/musicapp/node_modules/react-native-get-music-files/android/build/intermediates/res/merged/release/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/sjh0628/.gradle/caches/transforms-2/files-2.1/f9540e62cb72798289325c79c997581b/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/sjh0628/Project/rn/musicapp/node_modules/react-native-get-music-files/android/build/intermediates/res/merged/release/anim/catalyst_slide_down.xml",
+        "source": "/Users/sjh0628/.gradle/caches/transforms-2/files-2.1/c54066406df10b58fc726b8a1d24eb24/res/anim/catalyst_slide_down.xml"
+    },
+    {
+        "merged": "/Users/sjh0628/Project/rn/musicapp/node_modules/react-native-get-music-files/android/build/intermediates/res/merged/release/anim/catalyst_push_up_out.xml",
+        "source": "/Users/sjh0628/.gradle/caches/transforms-2/files-2.1/c54066406df10b58fc726b8a1d24eb24/res/anim/catalyst_push_up_out.xml"
+    },
+    {
+        "merged": "/Users/sjh0628/Project/rn/musicapp/node_modules/react-native-get-music-files/android/build/intermediates/res/merged/release/anim/abc_slide_out_top.xml",
+        "source": "/Users/sjh0628/.gradle/caches/transforms-2/files-2.1/f9540e62cb72798289325c79c997581b/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/sjh0628/Project/rn/musicapp/node_modules/react-native-get-music-files/android/build/intermediates/res/merged/release/anim/abc_tooltip_enter.xml",
+        "source": "/Users/sjh0628/.gradle/caches/transforms-2/files-2.1/f9540e62cb72798289325c79c997581b/res/anim/abc_tooltip_enter.xml"
+    },
+    {
+        "merged": "/Users/sjh0628/Project/rn/musicapp/node_modules/react-native-get-music-files/android/build/intermediates/res/merged/release/anim/catalyst_push_up_in.xml",
+        "source": "/Users/sjh0628/.gradle/caches/transforms-2/files-2.1/c54066406df10b58fc726b8a1d24eb24/res/anim/catalyst_push_up_in.xml"
+    },
+    {
+        "merged": "/Users/sjh0628/Project/rn/musicapp/node_modules/react-native-get-music-files/android/build/intermediates/res/merged/release/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/sjh0628/.gradle/caches/transforms-2/files-2.1/f9540e62cb72798289325c79c997581b/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/sjh0628/Project/rn/musicapp/node_modules/react-native-get-music-files/android/build/intermediates/res/merged/release/anim/abc_popup_enter.xml",
+        "source": "/Users/sjh0628/.gradle/caches/transforms-2/files-2.1/f9540e62cb72798289325c79c997581b/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/sjh0628/Project/rn/musicapp/node_modules/react-native-get-music-files/android/build/intermediates/res/merged/release/anim/abc_slide_in_top.xml",
+        "source": "/Users/sjh0628/.gradle/caches/transforms-2/files-2.1/f9540e62cb72798289325c79c997581b/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/sjh0628/Project/rn/musicapp/node_modules/react-native-get-music-files/android/build/intermediates/res/merged/release/anim/catalyst_fade_out.xml",
+        "source": "/Users/sjh0628/.gradle/caches/transforms-2/files-2.1/c54066406df10b58fc726b8a1d24eb24/res/anim/catalyst_fade_out.xml"
+    },
+    {
+        "merged": "/Users/sjh0628/Project/rn/musicapp/node_modules/react-native-get-music-files/android/build/intermediates/res/merged/release/anim/abc_fade_out.xml",
+        "source": "/Users/sjh0628/.gradle/caches/transforms-2/files-2.1/f9540e62cb72798289325c79c997581b/res/anim/abc_fade_out.xml"
+    }
+]

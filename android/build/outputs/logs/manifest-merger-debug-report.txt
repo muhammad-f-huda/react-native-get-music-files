@@ -1,0 +1,53 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/sjh0628/Project/rn/musicapp/node_modules/react-native-get-music-files/android/src/main/AndroidManifest.xml:2:1-10:12
+INJECTED from /Users/sjh0628/Project/rn/musicapp/node_modules/react-native-get-music-files/android/src/main/AndroidManifest.xml:2:1-10:12
+INJECTED from /Users/sjh0628/Project/rn/musicapp/node_modules/react-native-get-music-files/android/src/main/AndroidManifest.xml:2:1-10:12
+INJECTED from /Users/sjh0628/Project/rn/musicapp/node_modules/react-native-get-music-files/android/src/main/AndroidManifest.xml:2:1-10:12
+INJECTED from /Users/sjh0628/Project/rn/musicapp/node_modules/react-native-get-music-files/android/src/main/AndroidManifest.xml:2:1-10:12
+INJECTED from /Users/sjh0628/Project/rn/musicapp/node_modules/react-native-get-music-files/android/src/main/AndroidManifest.xml:2:1-10:12
+INJECTED from /Users/sjh0628/Project/rn/musicapp/node_modules/react-native-get-music-files/android/src/main/AndroidManifest.xml:2:1-10:12
+	package
+		ADDED from /Users/sjh0628/Project/rn/musicapp/node_modules/react-native-get-music-files/android/src/main/AndroidManifest.xml:3:11-44
+		INJECTED from /Users/sjh0628/Project/rn/musicapp/node_modules/react-native-get-music-files/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/sjh0628/Project/rn/musicapp/node_modules/react-native-get-music-files/android/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/sjh0628/Project/rn/musicapp/node_modules/react-native-get-music-files/android/src/main/AndroidManifest.xml
+		ADDED from /Users/sjh0628/Project/rn/musicapp/node_modules/react-native-get-music-files/android/src/main/AndroidManifest.xml:2:1-10:12
+		INJECTED from /Users/sjh0628/Project/rn/musicapp/node_modules/react-native-get-music-files/android/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/sjh0628/Project/rn/musicapp/node_modules/react-native-get-music-files/android/src/main/AndroidManifest.xml
+		ADDED from /Users/sjh0628/Project/rn/musicapp/node_modules/react-native-get-music-files/android/src/main/AndroidManifest.xml:2:1-10:12
+		INJECTED from /Users/sjh0628/Project/rn/musicapp/node_modules/react-native-get-music-files/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/sjh0628/Project/rn/musicapp/node_modules/react-native-get-music-files/android/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/sjh0628/Project/rn/musicapp/node_modules/react-native-get-music-files/android/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /Users/sjh0628/Project/rn/musicapp/node_modules/react-native-get-music-files/android/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/sjh0628/Project/rn/musicapp/node_modules/react-native-get-music-files/android/src/main/AndroidManifest.xml:6:5-77
+	android:name
+		ADDED from /Users/sjh0628/Project/rn/musicapp/node_modules/react-native-get-music-files/android/src/main/AndroidManifest.xml:6:22-75
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/sjh0628/Project/rn/musicapp/node_modules/react-native-get-music-files/android/src/main/AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from /Users/sjh0628/Project/rn/musicapp/node_modules/react-native-get-music-files/android/src/main/AndroidManifest.xml:7:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/sjh0628/Project/rn/musicapp/node_modules/react-native-get-music-files/android/src/main/AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from /Users/sjh0628/Project/rn/musicapp/node_modules/react-native-get-music-files/android/src/main/AndroidManifest.xml:8:22-78
+uses-sdk
+INJECTED from /Users/sjh0628/Project/rn/musicapp/node_modules/react-native-get-music-files/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/sjh0628/Project/rn/musicapp/node_modules/react-native-get-music-files/android/src/main/AndroidManifest.xml
+INJECTED from /Users/sjh0628/Project/rn/musicapp/node_modules/react-native-get-music-files/android/src/main/AndroidManifest.xml
+INJECTED from /Users/sjh0628/Project/rn/musicapp/node_modules/react-native-get-music-files/android/src/main/AndroidManifest.xml
+INJECTED from /Users/sjh0628/Project/rn/musicapp/node_modules/react-native-get-music-files/android/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/sjh0628/Project/rn/musicapp/node_modules/react-native-get-music-files/android/src/main/AndroidManifest.xml
+		ADDED from /Users/sjh0628/Project/rn/musicapp/node_modules/react-native-get-music-files/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/sjh0628/Project/rn/musicapp/node_modules/react-native-get-music-files/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/sjh0628/Project/rn/musicapp/node_modules/react-native-get-music-files/android/src/main/AndroidManifest.xml
+		ADDED from /Users/sjh0628/Project/rn/musicapp/node_modules/react-native-get-music-files/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/sjh0628/Project/rn/musicapp/node_modules/react-native-get-music-files/android/src/main/AndroidManifest.xml
