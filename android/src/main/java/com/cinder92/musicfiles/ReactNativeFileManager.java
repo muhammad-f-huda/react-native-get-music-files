@@ -21,13 +21,13 @@ public class ReactNativeFileManager extends ReactNativeBlurImage{
 
             if (songImage != null) {
                 ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
-                songImage.compress(Bitmap.CompressFormat.JPEG, 60, byteArrayOutputStream);
+                songImage.compress(Bitmap.CompressFormat.JPEG, 80, byteArrayOutputStream);
                 byte[] byteArray = byteArrayOutputStream.toByteArray();
-                String encodedImage = Base64.encodeToString(byteArray, Base64.DEFAULT);
-                byte[] imageByte = Base64.decode(encodedImage, Base64.DEFAULT);
+                // String encodedImage = Base64.encodeToString(byteArray, Base64.DEFAULT);
+                // byte[] imageByte = Base64.decode(encodedImage, Base64.DEFAULT);
 
                 if(byteArray != null) {
-                    return saveToStorage(songId, imageByte);
+                    return saveToStorage(songId, byteArray);
                 }
             }
 
