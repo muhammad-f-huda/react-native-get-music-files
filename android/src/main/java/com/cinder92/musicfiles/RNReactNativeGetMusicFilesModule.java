@@ -123,6 +123,9 @@ public class RNReactNativeGetMusicFilesModule extends ReactContextBaseJavaModule
                     String path= musicCursor.getString(pathIndex);
                     item.putString("url", "file://"+path);
 
+                    String type= FilenameUtils.getExtension(path);
+                    item.putString("type", type);
+
                     String name= FilenameUtils.getBaseName(path);
                     item.putString("name", name);
 
