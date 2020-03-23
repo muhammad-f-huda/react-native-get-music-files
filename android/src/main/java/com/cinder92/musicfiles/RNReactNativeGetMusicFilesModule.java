@@ -100,10 +100,12 @@ public class RNReactNativeGetMusicFilesModule extends ReactContextBaseJavaModule
         if(musicCursor==null) {
             Log.i("com.tests", "Something get wrong with musicCursor");
             errorCallback.invoke("Something get wrong with musicCursor");
+            return;
         }
         if(musicCursor.getCount()<1) {
             Log.i("com.tests", "Error, you dont' have any songs");
             successCallback.invoke("Error, you dont' have any songs");
+            return;
         }
 
         MediaMetadataRetriever mediaMetadataRetriever= new MediaMetadataRetriever();
@@ -138,25 +140,25 @@ public class RNReactNativeGetMusicFilesModule extends ReactContextBaseJavaModule
                     item.putString("duration", duration);
 
                     String artist= mediaMetadataRetriever.extractMetadata(mediaMetadataRetriever.METADATA_KEY_ARTIST);
-                    item.putString("artist", (artist==null) ? "Unknown" : artist);
+                    item.putString("artist", isEmptyOrNull(artist) ? "Unknown" : artist);
 
                     String title= mediaMetadataRetriever.extractMetadata(mediaMetadataRetriever.METADATA_KEY_TITLE);
-                    item.putString("title", (title==null) ? "Unknown" : title);
+                    item.putString("title", isEmptyOrNull(title) ? "Unknown" : title);
 
                     String album= mediaMetadataRetriever.extractMetadata(mediaMetadataRetriever.METADATA_KEY_ALBUM);
-                    item.putString("album", (album==null) ? "Unknown" : album);
+                    item.putString("album", isEmptyOrNull(album) ? "Unknown" : album);
 
                     String genre= mediaMetadataRetriever.extractMetadata(mediaMetadataRetriever.METADATA_KEY_GENRE);
-                    item.putString("genre", (genre==null) ? "Unknown" : genre);
+                    item.putString("genre", isEmptyOrNull(genre) ? "Unknown" : genre);
 
                     String bitrate= mediaMetadataRetriever.extractMetadata(mediaMetadataRetriever.METADATA_KEY_BITRATE);
-                    item.putString("bitrate", (bitrate==null) ? "-" : bitrate);
+                    item.putString("bitrate", isEmptyOrNull(bitrate) ? "-" : bitrate);
 
                     String year= mediaMetadataRetriever.extractMetadata(mediaMetadataRetriever.METADATA_KEY_YEAR);
-                    item.putString("year", (year==null) ? "-" : year);
+                    item.putString("year", isEmptyOrNull(year) ? "-" : year);
 
                     String tracks= mediaMetadataRetriever.extractMetadata(mediaMetadataRetriever.METADATA_KEY_CD_TRACK_NUMBER);
-                    item.putString("tracks", (tracks==null) ? "-" : tracks);
+                    item.putString("tracks", isEmptyOrNull(tracks) ? "-" : tracks);
 
                     String artworkPath= Environment.getExternalStorageDirectory()+artworkBasepath+name;
                     File artworkFile= new File(artworkPath);
@@ -186,6 +188,10 @@ public class RNReactNativeGetMusicFilesModule extends ReactContextBaseJavaModule
         } finally {
             mediaMetadataRetriever.release();
         }
+    }
+
+    private boolean isEmptyOrNull(String str) {
+        return(str==null || str.isEmpty());
     }
 
     private void sendEvent(ReactContext reactContext, String eventName, @Nullable WritableMap params) {
