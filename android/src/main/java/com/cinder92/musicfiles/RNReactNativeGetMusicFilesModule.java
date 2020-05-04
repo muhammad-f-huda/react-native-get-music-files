@@ -1,4 +1,3 @@
-
 package com.cinder92.musicfiles;
 
 import org.apache.commons.io.FilenameUtils;
@@ -140,25 +139,25 @@ public class RNReactNativeGetMusicFilesModule extends ReactContextBaseJavaModule
                     item.putString("duration", duration);
 
                     String artist= mediaMetadataRetriever.extractMetadata(mediaMetadataRetriever.METADATA_KEY_ARTIST);
-                    item.putString("artist", isEmptyOrNull(artist) ? "Unknown" : artist);
+                    item.putString("artist", artist);
 
                     String title= mediaMetadataRetriever.extractMetadata(mediaMetadataRetriever.METADATA_KEY_TITLE);
-                    item.putString("title", isEmptyOrNull(title) ? "Unknown" : title);
+                    item.putString("title", title);
 
                     String album= mediaMetadataRetriever.extractMetadata(mediaMetadataRetriever.METADATA_KEY_ALBUM);
-                    item.putString("album", isEmptyOrNull(album) ? "Unknown" : album);
+                    item.putString("album", album);
 
                     String genre= mediaMetadataRetriever.extractMetadata(mediaMetadataRetriever.METADATA_KEY_GENRE);
-                    item.putString("genre", isEmptyOrNull(genre) ? "Unknown" : genre);
+                    item.putString("genre", genre);
 
                     String bitrate= mediaMetadataRetriever.extractMetadata(mediaMetadataRetriever.METADATA_KEY_BITRATE);
-                    item.putString("bitrate", isEmptyOrNull(bitrate) ? "-" : bitrate);
+                    item.putString("bitrate", bitrate);
 
                     String year= mediaMetadataRetriever.extractMetadata(mediaMetadataRetriever.METADATA_KEY_YEAR);
-                    item.putString("year", isEmptyOrNull(year) ? "-" : year);
+                    item.putString("year", year);
 
                     String tracks= mediaMetadataRetriever.extractMetadata(mediaMetadataRetriever.METADATA_KEY_CD_TRACK_NUMBER);
-                    item.putString("tracks", isEmptyOrNull(tracks) ? "-" : tracks);
+                    item.putString("tracks", tracks);
 
                     String artworkPath= Environment.getExternalStorageDirectory()+artworkBasepath+name;
                     File artworkFile= new File(artworkPath);
@@ -188,10 +187,6 @@ public class RNReactNativeGetMusicFilesModule extends ReactContextBaseJavaModule
         } finally {
             mediaMetadataRetriever.release();
         }
-    }
-
-    private boolean isEmptyOrNull(String str) {
-        return(str==null || str.isEmpty());
     }
 
     private void sendEvent(ReactContext reactContext, String eventName, @Nullable WritableMap params) {
